@@ -14,12 +14,33 @@
     <body>
         <div id="header"></div>
         <div id="search-box">
-            <div id="search-term"></div>
-            <div id="number-of-records"></div>
-            <div id="start-year"></div>
-            <div id="end-year"></div>
-            <button id="search-btn"></button>
-            <button id="clear-btn"></button>
+            <form>
+                <div class="form-group">
+                    <label for="search-term">Search Term:</label>
+                    <textarea class = "form-control" id="search-term" rows="1"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="number-of-records">Number of Records to Retrieve:</label>
+                    <select class="form-control" id="number-of-records">
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                    </select>
+                </div>
+                <div class="form-group"> 
+                    <label for="start-year">Start Year (Optional):</label>
+                    <textarea class="form-control" id="start-year" rows="1"></textarea>
+                </div>
+                <div class="form-group"> 
+                    <label for="end-year">End Year (Optional):</label>
+                    <textarea class="form-control" id="end-year" rows="1"></textarea>
+                </div>
+                    <button id="search-btn"></button>
+                    <button id="clear-btn"></button>
+
+            </form>
+
         </div>
         <div id="search-results"></div>
         
