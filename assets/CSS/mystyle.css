@@ -1,0 +1,26 @@
+#header {
+    background-color: rgb(32, 32, 75);
+    width: 960px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#search-box {
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+form {
+    margin: 20px;
+}
+
+#search-results {
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+footer {
+    margin: 40px;
+}
